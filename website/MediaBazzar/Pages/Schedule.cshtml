@@ -1,0 +1,78 @@
+﻿@page
+@model MediaBazzar.Pages.ScheduleModel
+@{ ViewData["Title"] = "Schedule"; }
+<style>
+</style>
+<body>
+    <div class="container">
+            <div class="Form-Schedule">
+                <form method="post">
+                    <div>
+                        <label asp-for="week"> week:</label>
+                        <input asp-for="week" name="week" />
+                    </div>
+                    <div>
+                        <label asp-for="year"> year:</label>
+                        <input asp-for="year" name="year" />
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" class="subtmit-btn" value="View Schedule">
+                    </div>
+                </form>
+
+                <div class="pwt-preference">
+                    <h2>Schedule</h2>
+                    <table class="pwt-preference">
+                        <tr>
+                            <th>Days</th>
+                            @for (int i = 0; i < 3; i++)
+                            {
+                                <th>
+                                    @Model.Shift.ToString()
+                                    <p style="visibility:hidden; font-size: 0px;"> @Model.ShiftIncrease()</p>
+                                </th>
+                            }
+                        </tr>
+                        @for (int i = 0; i < 7; i++)
+                        {
+                            <tr>
+                                <td>
+                                    @Model.Day.ToString()
+                                </td>
+
+
+                                @if (@Model.IsWorkingToday().morning)
+                                {
+                                    <td style="background-color: green"> 08:00 - 12:00 </td>
+                                }
+                                else
+                                {
+                                    <td style="background-color: red">  </td>
+                                }
+
+                                @if (@Model.IsWorkingToday().afternoon)
+                                {
+                                    <td style="background-color: green"> 12:00 - 16:00 </td>
+                                }
+                                else
+                                {
+                                    <td style="background-color: red"> </td>
+                                }
+                                @if (@Model.IsWorkingToday().evening)
+                                {
+                                    <td style="background-color: green"> 16:00 to 20:00 </td>
+                                }
+                                else
+                                {
+                                    <td style="background-color: red"> </td>
+                                }
+
+                                <p style="visibility:hidden"> @Model.DayIncrease()</p>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+</body>

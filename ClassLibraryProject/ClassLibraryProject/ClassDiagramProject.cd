@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibraryProject.ChildClasses.Admin" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ChildClasses\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ChildClasses.CEO" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChildClasses\CEO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ChildClasses.DepotEmployee" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChildClasses\DepotEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ChildClasses.DepotManager" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ChildClasses\DepotManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ChildClasses.OfficeManager" Collapsed="true">
+    <Position X="25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAQBAAAAA=</HashCode>
+      <FileName>ChildClasses\OfficeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ChildClasses.ProductManager" Collapsed="true">
+    <Position X="27.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChildClasses\ProductManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ChildClasses.SalesManager" Collapsed="true">
+    <Position X="29.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ChildClasses\SalesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.SalesRepresentative" Collapsed="true">
+    <Position X="31.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChildClasses\SalesRepresentative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ContractManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAIYAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractManager\ContractManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.DBContractManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAIQBAAAAAAAAAABAAAABAAAAEAAA=</HashCode>
+      <FileName>ContractManager\DBContractManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.DBEmployeeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAIARACAAAQAMAAACgAAIAAJAEAAAAAAgQA=</HashCode>
+      <FileName>EmployeeManager\DBEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.EmployeeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIARACAACAAIAAAAAAAIAAKAAAAAAABAQA=</HashCode>
+      <FileName>EmployeeManager\EmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.PreferedWorkTimeManagement" Collapsed="true">
+    <Position X="43.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAAEAAAABAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PreferedWorkTimeManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.BasicEmployeeInfo" Collapsed="true">
+    <Position X="45" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAABACAAEAAAAAAAAAAAAAgAAAAAACAAIAAg=</HashCode>
+      <FileName>Class\BasicEmployeeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Checkin" Collapsed="true">
+    <Position X="46.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAABgAEAAIAAAAAAAAAAgABAAAAAQAAAAA=</HashCode>
+      <FileName>Class\Checkin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Company" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAACIAAAAgAAAAQAAAAEIQIAACECAAAAAAAEA=</HashCode>
+      <FileName>Class\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Contract" Collapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAICIAAGCAJABAwGgAAAAEAAAAAAEAIggA=</HashCode>
+      <FileName>Class\Contract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Department" Collapsed="true">
+    <Position X="48.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgIAEAIAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Employee" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAUAAASDAAAEsAQAASAEAAEIQAgADAAgICgAAKAg=</HashCode>
+      <FileName>Class\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Login" Collapsed="true">
+    <Position X="46.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAEAA=</HashCode>
+      <FileName>Class\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Manager" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.ManagerDepot" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\ManagerDepot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.OrderInfo" Collapsed="true">
+    <Position X="36.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAgIAAEACAABAAAAIAAAACAgAAAAIAAgA=</HashCode>
+      <FileName>Class\OrderInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Person" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAEAAACBAABAsAQAASAECAEAQAgAiACgAKgAAIAg=</HashCode>
+      <FileName>Class\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.PreferedWorkTime" Collapsed="true">
+    <Position X="41.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIhAAEAIBABAAAUAAAAAAAAAAAAAgAAAAAAAAAAAQA=</HashCode>
+      <FileName>Class\PreferedWorkTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Product" Collapsed="true">
+    <Position X="46.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAARAQAIEAAAAEAAQQAAQEAIAEAACAAAAwgAAAIAA=</HashCode>
+      <FileName>Class\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.RegisteredShift" Collapsed="true">
+    <Position X="36.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAALAAAgAgAAAAIAAAACAAAAAAAgAAAAIAAAgA=</HashCode>
+      <FileName>Class\RegisteredShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Reshelf" Collapsed="true">
+    <Position X="38" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQCAAAEAgAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Class\ReShelf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Restock" Collapsed="true">
+    <Position X="41.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQCAAAEAgAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Class\Restock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Schedule" Collapsed="true">
+    <Position X="46.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAALAEAACgBAAAAAAAQEAAAACAAgAAAAIAAAAA=</HashCode>
+      <FileName>Class\Schedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Store" Collapsed="true">
+    <Position X="36.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAQAABACAAAAAAQAAgAAAAAAAgAAAAIgACAA=</HashCode>
+      <FileName>Class\Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Supplier" Collapsed="true">
+    <Position X="38" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAiAAgAAgIAAAQCQAAMIEAACCAAAACAAAAgg=</HashCode>
+      <FileName>Class\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.TimeWorked" Collapsed="true">
+    <Position X="41.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACIAEAEABAAQAAAAEAgEAAABAAAAIgAA=</HashCode>
+      <FileName>Class\TimeWorked.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.Class.Utils" Collapsed="true">
+    <Position X="43.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAABAAAAAAAAAAGAAAAAAAAREAAAA=</HashCode>
+      <FileName>Class\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.AutoSchedule.DbAmountOfEmployeesNeededManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\AutoSchedule\DbAmountOfEmployeesNeededManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.AutoSchedule.DbAsignShiftManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>dbClasses\AutoSchedule\DbAsignShiftManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.AutoSchedule.DbDeletePlanningForTheWeekManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\AutoSchedule\DbDeletePlanningForTheWeekManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.AutoSchedule.DbEmployeesAvailibleManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAQAAAAAAQAAAAAAAAAAABAAQAAAQAAAAAAI=</HashCode>
+      <FileName>dbClasses\AutoSchedule\DbEmployeesAvailibleManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.dbCheckinManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAAEAAAEAAACACASAgEEBAAAAKAAgAAQAAAAAAAA=</HashCode>
+      <FileName>dbClasses\dbCheckinManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.dbCompanyManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAQAAAAAAAAAAABQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\dbCompanyManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.dbDepartmentManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAIyFgAAIAAAAAAACAAABAAABBAACAQAA=</HashCode>
+      <FileName>dbClasses\dbDepartmentManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.dbDepotDepartments" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\dbDepotDepartments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.dbLoginManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAiAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>dbClasses\dbLoginManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.DBOrderInfo" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAIABAKAAEAAAAgAIAAAAAAAMAABAQAAAA=</HashCode>
+      <FileName>dbClasses\DBOrderInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.DBReshelf" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAgAEAIAFAAABAgAQIAAAEAAAAAQAAA=</HashCode>
+      <FileName>dbClasses\DBReshelf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.DBRestock" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAAEAAEAAAAASACAAAAAAAAJQAAGAAAABAAIA=</HashCode>
+      <FileName>dbClasses\DBRestock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.dbSalesDepartments" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\dbSalesDepartments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.DBSchedule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAIAAAAAAAAAAAQAAAAAAABAQgAAAAAAAAU=</HashCode>
+      <FileName>dbClasses\DBSchedule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.dbClasses.DBSupplier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAICACAFAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>dbClasses\DBSupplier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.AmountOfEmployeesNeededManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\AutoScheduling\AmountOfEmployeesNeededManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.AsignShiftManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>ManagmentClasses\AutoScheduling\AsignShiftManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.AutoScheduleManagment" Collapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\AutoScheduling\AutoScheduleManagment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.DeletePlanningForTheWeekManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\AutoScheduling\DeletePlanningForTheWeekManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.EmployeesAvailibleManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAAAAAABBAAQAAAQAAAAAAI=</HashCode>
+      <FileName>ManagmentClasses\AutoScheduling\EmployeesAvailibleManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.AdminAddEmployee" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\AdminAddEmployee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.BackUpManagment" Collapsed="true">
+    <Position X="43.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\BackUpManagment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.CheckinManagment" Collapsed="true">
+    <Position X="48.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAEAAAAAAACACASAgAEQAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\CheckinManagment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.CompanyManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAABAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\CompanyManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.ContractManagement" Collapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAACAAAAhAAAAAAAAAAAAAAABAAAQAAAA=</HashCode>
+      <FileName>ManagmentClasses\ContractManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.DepartmentManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAAAAgAAAAIAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ManagmentClasses\DepartmentManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.DepotDepartmentsManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\DepotDepartmentsManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.EmailManager" Collapsed="true">
+    <Position X="39.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\EmailManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.EmployeeManagement" Collapsed="true">
+    <Position X="41.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAACAgACCAoAAwACAAkAAAAEBBAAAQQgCAAAA=</HashCode>
+      <FileName>ManagmentClasses\EmployeeManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.LoginManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAgAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\LoginManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.OrderInfoManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAYAAAAAAEAIAAgAAAAAAAAFAAAAAAAAgA=</HashCode>
+      <FileName>ManagmentClasses\OrderInfoManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.PlanningManagment" Collapsed="true">
+    <Position X="39.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ManagmentClasses\PlanningManagment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.PreferedWorkTimeManagement" Collapsed="true">
+    <Position X="45" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAAEAAAABAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\PreferedWorkTimeManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.ProductManagment" Collapsed="true">
+    <Position X="48.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAQAIAgAEAAEiQAgAAACCAAAMAAAACCAAgAQ=</HashCode>
+      <FileName>ManagmentClasses\ProductManagment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.ReshelfManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAIAAQAAAAEAAAJAAABAgAAAAAAIAAAAQAAgA=</HashCode>
+      <FileName>ManagmentClasses\ReshelfManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.RestockManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAgAKAIAAAAAAAREACAAQAAAAoA=</HashCode>
+      <FileName>ManagmentClasses\RestockManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.SalesDepartmentsManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\SalesDepartmentsManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.ScheduleManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAg=</HashCode>
+      <FileName>ManagmentClasses\ScheduleManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.SupplierManagment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQCIAICEAAIAAAAAAAAAAAAAAAAAAQAgA=</HashCode>
+      <FileName>ManagmentClasses\SupplierManagment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ClassLibraryProject.ManagmentClasses.WordManager" Collapsed="true">
+    <Position X="45" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\WordManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ClassLibraryProject.IContractManager" Collapsed="true">
+    <Position X="46.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractManager\IContractManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IDBContractManager" Collapsed="true">
+    <Position X="38" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAIAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractManager\IDBContractManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IDBEmployeeManagerAdmin" Collapsed="true">
+    <Position X="41.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABACAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeManager\IDBEmployeeManagerAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IDBEmployeeManagerAll" Collapsed="true">
+    <Position X="43.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EmployeeManager\IDBEmployeeManagerAll.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IDBEmployeeManagerOffice" Collapsed="true">
+    <Position X="45" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAACAAAAAIAAAAAAAIAAIAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeManager\IDBEmployeeManagerOffice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IEmployeeManagerAdmin" Collapsed="true">
+    <Position X="36.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABACAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeManager\IEmployeeManagerAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IEmployeeManagerAll" Collapsed="true">
+    <Position X="38" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EmployeeManager\IEmployeeManagerAll.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.IEmployeeManagerOffice" Collapsed="true">
+    <Position X="39.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAACAAAAAIAAAAAAAIAAIAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeManager\IEmployeeManagerOffice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IDB.IDBOrderInfo" Collapsed="true">
+    <Position X="48.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAIAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\IDB\IDBOrderInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IDB.IDBReshelf" Collapsed="true">
+    <Position X="36.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAABAAABAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\IDB\IDBReshelf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IDB.IDBRestock" Collapsed="true">
+    <Position X="38" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQACAAAAAAAAIQAAAAAAAAAAIA=</HashCode>
+      <FileName>dbClasses\IDB\IDBRestock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IDB.IDBSchedule" Collapsed="true">
+    <Position X="39.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\IDB\IDBSchedule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IDB.IDBSupplier" Collapsed="true">
+    <Position X="41.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAICAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>dbClasses\IDB\IDBSupplier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IGetObject.IGetProduct" Collapsed="true">
+    <Position X="43.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>dbClasses\IGetObject\IGetProduct.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.dbClasses.IGetObject.IGetSupplier" Collapsed="true">
+    <Position X="45" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbClasses\IGetObject\IGetSupplier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IAddEmployee" Collapsed="true">
+    <Position X="36.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAddEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IAmountOfEmployeesNeededManagment" Collapsed="true">
+    <Position X="38" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAmountOfEmployeesNeededManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IAsignShiftManagment" Collapsed="true">
+    <Position X="39.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Interfaces\IAsignShiftManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.ICheckinManagment" Collapsed="true">
+    <Position X="41.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAEAAAAAAACACASAgAEAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICheckinManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.ICompany" Collapsed="true">
+    <Position X="43.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICompany.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.ICompanyManagment" Collapsed="true">
+    <Position X="45" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICompanyManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDbAmountOfEmployeesNeededManagment" Collapsed="true">
+    <Position X="48.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDbAmountOfEmployeesNeededManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDbAsignShiftManagment" Collapsed="true">
+    <Position X="36.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Interfaces\IDbAsignShiftManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDbDeletePlanningForTheWeekManagment" Collapsed="true">
+    <Position X="39.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDbDeletePlanningForTheWeekManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDbEmployeesAvailibleManagment" Collapsed="true">
+    <Position X="46.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAAAAAAABAAQAAAQAAAAAAI=</HashCode>
+      <FileName>Interfaces\IDbEmployeesAvailibleManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDBViewAllDepartments" Collapsed="true">
+    <Position X="43.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDBViewAllDepartments.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDeletePlanningForTheWeekManagment" Collapsed="true">
+    <Position X="45" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDeletePlanningForTheWeekManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDepartment" Collapsed="true">
+    <Position X="46.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAAIAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IDepartment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IDepartmentManagment" Collapsed="true">
+    <Position X="48.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAAIAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IDepartmentManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IEmployeesAvailibleManagment" Collapsed="true">
+    <Position X="41.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAAAAAAABAAQAAAQAAAAAAI=</HashCode>
+      <FileName>Interfaces\IEmployeesAvailibleManagment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.ILogin" Collapsed="true">
+    <Position X="46.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILogin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.ILoginManagement" Collapsed="true">
+    <Position X="48.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILoginManagement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.Interfaces.IViewDepartments" Collapsed="true">
+    <Position X="36.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IViewDepartments.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IAllEmployee.IPreferedShiftAllEmployee" Collapsed="true">
+    <Position X="38" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\IAllEmployee\IPreferedShiftAllEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IAllManager.IScheduleAllManager" Collapsed="true">
+    <Position X="46.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\IAllManager\IScheduleAllManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IDepotEmployee.IReshelfDepotEmployee" Collapsed="true">
+    <Position X="39.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAABAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\IDepotEmployee\IReshelfDepotEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IDepotEmployee.IRestockDepotEmployee" Collapsed="true">
+    <Position X="43.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAQEAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\IDepotEmployee\IRestockDepotEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IDepotManager.IRestockDepotManager" Collapsed="true">
+    <Position X="45" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAAAIA=</HashCode>
+      <FileName>ManagmentClasses\IDepotManager\IRestockDepotManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IProductManager.IOrderInfoProductManager" Collapsed="true">
+    <Position X="36.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAIAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\IProductManager\IOrderInfoProductManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.IProductManager.ISupplierProductManager" Collapsed="true">
+    <Position X="48.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAICAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ManagmentClasses\IProductManager\ISupplierProductManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClassLibraryProject.ManagmentClasses.ISalesEmployee.IReshelfSalesEmployee" Collapsed="true">
+    <Position X="41.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagmentClasses\ISalesEmployee\IReshelfSalesEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ClassLibraryProject.Enum.Days">
+    <Position X="48.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAACAAAAAAAAAAACAAIACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum\Days.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClassLibraryProject.Enum.Shifts">
+    <Position X="50.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAACAAAAAABAAAAAAA=</HashCode>
+      <FileName>Enum\Shifts.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

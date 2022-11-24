@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home page";
+}
+
+<div class="main">
+    <div class="main-index">
+        <div class="home-text">
+            <h1>Media Bazaar</h1>
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <a asp-area="" asp-page="/Profile" class="btn">Login</a>
+            }
+        </div>
+    </div>
+</div>

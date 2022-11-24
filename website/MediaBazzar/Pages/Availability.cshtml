@@ -1,0 +1,42 @@
+﻿@page
+@model MediaBazaarWebsite.Pages.AvailabilityModel
+@{
+    ViewData["Title"] = "Availability";
+}
+<div class="availability">
+    <div class="row">
+        <div class="availability-left">
+            <form class="availability-form" method="post">
+                <h2>Select the day you are unavailable</h2>
+                <h2>@ViewData["Message"]</h2>
+                <div class="input">
+                    <label asp-for="Unavailable">Unavailable Date:</label>
+                    <input asp-for="Unavailable" type="date" name="Unavailable" min="@DateTime.Now.AddDays(7).ToString("yyyy-MM-dd")" value="@DateTime.Now.AddDays(7).ToString("yyyy-MM-dd")"/>
+                </div>
+                <input type="submit" class="submit-btn" value="Submit">
+            </form>
+        </div>
+        <div class="availability-right">
+            <h2>Unavailable days:</h2>
+            @if (Model.Unavailabilities.Count != 0)
+            {
+                <table class="availability-table">
+                        <tr>
+                            <th>Day</th>
+                            <th>Week</th>
+                            <th>Year</th>
+                        </tr>
+
+                        @foreach (var u in Model.GetList())
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => u.Day)</td>
+                                <td>@Html.DisplayFor(modelItem => u.Week)</td>
+                                <td>@Html.DisplayFor(modelItem => u.Year)</td>
+                            </tr>
+                        }
+                </table>
+            }
+        </div>
+    </div>
+</div>

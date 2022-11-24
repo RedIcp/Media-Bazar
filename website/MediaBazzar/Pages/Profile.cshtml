@@ -1,0 +1,73 @@
+﻿@page
+@model ProfileModel
+@{
+    ViewData["Title"] = "Profile";
+
+    var returnUrl = ViewData["ReturnUrl"] as string;
+    var error = TempData["Error"] as string;
+}
+
+
+    <div class="profile-main">
+        <form class="profile-form" method="post">
+            <h2>Profile</h2>
+            @if (!string.IsNullOrEmpty(error))
+            {
+                <h2>@error</h2>
+            }
+            <h2>@ViewData["Message"]</h2>
+            <div class="sub-form">
+                <div class="input">
+                    <label asp-for="Employee.FirstName"> First Name*:</label>
+                    <input asp-for="Employee.FirstName" name="FirstName" />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.LastName"> Last Name*:</label>
+                    <input asp-for="Employee.LastName" type="text" name="LastName" />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.Email"> Email:</label>
+                    <input asp-for="Employee.Email" type="text" name="Email" readonly />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.Username"> Username:</label>
+                    <input asp-for="Employee.Username" type="text" name="Username" readonly />
+                </div>
+            </div>
+            <div class="sub-form">
+                <div class="input">
+                    <label asp-for="Employee.Password"> Password*:</label>
+                    <input asp-for="Employee.Password" type="text" name="Password" />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.BSN"> BSN:</label>
+                    <input asp-for="Employee.BSN" type="text" name="BSN" readonly />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.Address"> Address*:</label>
+                    <input asp-for="Employee.Address" type="text" name="Address" />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.PhoneNumber"> PhoneNumber*:</label>
+                    <input asp-for="Employee.PhoneNumber" type="text" name="PhoneNumber" />
+                </div>
+            </div>
+            <div class="sub-form">
+                <div class="input">
+                    <label asp-for="Employee.ZipCode"> ZipCode*:</label>
+                    <input asp-for="Employee.ZipCode" type="text" name="ZipCode" />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.City"> City*:</label>
+                    <input asp-for="Employee.City" type="text" name="City" />
+                </div>
+                <div class="input">
+                    <label asp-for="Employee.PersonalEmail"> Personal Email*:</label>
+                    <input asp-for="Employee.PersonalEmail" type="text" name="PersonalEmail" />
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" class="subtmit-btn" value="Update Profile">
+            </div>
+        </form>
+    </div>

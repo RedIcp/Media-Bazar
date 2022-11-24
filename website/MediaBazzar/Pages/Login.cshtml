@@ -1,0 +1,75 @@
+﻿@page
+@model MediaBazzar.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+
+    var returnUrl = ViewData["ReturnUrl"] as string;
+    var error = TempData["Error"] as string;
+}
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<!--<div class="content-container">
+    <div class="login-box">
+        <form class="login-form" formaction="/login?ReturnUrl=m.Net.WebUtility.UrlEncode(returnUrl)" method="post">
+            <h2>Login</h2>
+            <div class="input">
+                <input asp-for="Model.Username" type="text" name="username" id="username" required>
+                <label asp-for="Model.Username">Username:</label>
+                <span asp-validation-for="Model.Username"></span>
+            </div>
+            <div class="input">
+                <input asp-for="Model.Password" type="password" name="password" id="password" required>
+                <label asp-for="Model.Password">Password:</label>
+                <span asp-validation-for="Model.Password"></span>
+            </div>
+            <input type="submit" class="submitBtn" value="Login">
+        </form>
+    </div>
+</div>-->
+
+<div class="main">
+    <div class="login-main">
+        <form class="login-form" formaction="/login?ReturnUrl=@System.Net.WebUtility.UrlEncode(returnUrl)" method="post">
+            <h2>Login</h2>
+            @if (!string.IsNullOrEmpty(error))
+            {
+                <h2>@error</h2>
+            }
+            <div class="input">
+                <input asp-for="Login.Username" type="text" name="username" id="username" placeholder="Username">
+                <span asp-validation-for="Login.Username"></span>
+            </div>
+            <div class="input">
+                <input asp-for="Login.Password" type="password" name="password" id="password" placeholder="Password">
+                <span class="eye" onclick="showPassword()">
+                    <i id="hidePassword" class="fa fa-eye"></i>
+                    <i id="showPassword" class="fa fa-eye-slash"></i>
+                </span>
+                <span asp-validation-for="Login.Password"></span>
+            </div>
+            <input type="submit" class="login-btn" value="Login">
+        </form>
+    </div>
+</div>
+
+<!-- Javascript for hide password -->
+<script>
+    function showPassword() {
+        var password = document.getElementById("password");
+        var hidePassword = document.getElementById("hidePassword");
+        var showPassword = document.getElementById("showPassword");
+
+        if (password.type === 'password') {
+            password.type = "text";
+            hidePassword.style.display = "block";
+            showPassword.style.display = "none";
+        } else {
+            password.type = "password";
+            hidePassword.style.display = "none";
+            showPassword.style.display = "block";
+        }
+    }
+</script>

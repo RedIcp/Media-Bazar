@@ -1,0 +1,108 @@
+﻿@page
+@model MediaBazaarWebsite.Pages.PreferedtimeModel
+@{ 
+    ViewData["Title"] = "Preferedtime"; 
+}
+
+<div class="preferred-time">
+    <div class="row">
+        <div class="pt-left">
+            <form class="preferred-time-form" method="post">
+                <h2>Select your preferred work time</h2>
+                <div class="input">
+                    <label asp-for="WeekDay">Select day:</label>
+                    <select asp-for="WeekDay">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label asp-for="shift">Select shift:</label>
+                    <select asp-for="shift" name="Shift">
+                        <option value="Morning">Morning</option>
+                        <option value="Afternoon">Afternoon</option>
+                        <option value="Evening">Evening</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label asp-for="Preferred">Select day:</label>
+                    <select asp-for="Preferred" name="Preferred">
+                        <option value="Preferred">Preferred</option>
+                        <option value="LeastPreferred">Least Preferred</option>
+                        <option value="Not specified">Not specified</option>
+                    </select>
+                </div>
+                <input type="submit" class="submit-btn" value="Submit">
+            </form>
+        </div>
+        <div class="pt-right">
+            <h2>Work Preference:</h2>
+            <table class="pwt-preference">
+                <tr>
+                    <th>Days</th>
+                    @for (int i = 0; i < 3; i++)
+                    {
+                        <th>
+                            @Model.Shift.ToString()
+                            <p style="visibility: hidden; font-size: 0px;"> @Model.ShiftIncrease()</p>
+                        </th>
+                    }
+                </tr>
+
+                    @for (int i = 0; i < 7; i++)
+                    {
+                            <tr>
+                                <td>
+                                    @Model.Day.ToString()
+                                </td>
+
+
+                                @if (@Model.IsWorkingToday() == 1)
+                                {
+                                    <td style="background-color: green"> 08:00 - 12:00  </td>
+                                }
+                                else if (@Model.prefered == 0)
+                                {
+                                    <td style="background-color: red">  08:00 - 12:00  </td>
+                                }
+                                else
+                                {
+                                   <td style="background-color: yellow"> 08:00 - 12:00  </td>
+                                }
+
+                                @if (@Model.IsWorkingToday() == 1)
+                                {
+                                       <td style="background-color: green">  12:00 - 16:00  </td>
+                                }
+                                else if (@Model.prefered == 0)
+                                {
+                                      <td style="background-color: red">  12:00 - 16:00 </td>
+                                }
+                                else
+                                {
+                                     <td style="background-color: yellow"> 12:00 - 16:00 </td>
+                                }
+
+                                @if (@Model.IsWorkingToday() == 1)
+                                {
+                                      <td style="background-color: green">16:00 - 20:00 </td>
+                                }
+                                else if (@Model.prefered == 0)
+                                {
+                                      <td style="background-color: red"> 16:00 - 20:00</td>
+                                }
+                                else
+                                {
+                                    <td style="background-color: yellow"> 16:00 - 20:00 </td>
+                                }
+                            </tr>
+                     }
+                </table>
+        </div>
+    </div>
+</div>
